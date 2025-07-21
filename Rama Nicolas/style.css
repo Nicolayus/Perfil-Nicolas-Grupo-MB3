@@ -1,0 +1,87 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+}
+
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-check{
+    margin-bottom: 5px;
+}
+
+label{
+    padding-bottom: 12px ;
+}
+
+select {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 36px 6px 10px;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+select:focus {
+  border-color: #3498db; /* Azul, cámbialo a lo que te guste */
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.25); /* sombra suave */
+  outline: none; /* elimina el contorno azul feo del navegador */
+}
+
+
+input {
+    opacity: 1; /* Menor valor = más transparente */
+    cursor: pointer;
+}
+
+textarea {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    resize: vertical;
+    font-size: 15px;
+    border-color: rgba(0, 0, 0, 0.150);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #3498db; /* Azul, cámbialo a lo que te guste */
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.25); /* sombra suave */
+  outline: none; /* elimina el contorno azul feo del navegador */
+}
+
+button {
+  color: #fff;
+  background-color: rgb(34, 143, 170);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(28, 120, 145);
+}
+
